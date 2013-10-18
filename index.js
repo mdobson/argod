@@ -33,9 +33,8 @@ if (!backlog) {
   file = program.args.shift();
 }
 
-var fileLocation = path.join(__dirname, file);
+var fileLocation = path.join(process.cwd(), file);
 
 var server = require(fileLocation);
-
 server.listen(port);
 
