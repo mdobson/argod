@@ -26,5 +26,8 @@
   "dependencies": {
     "commander":"2.0.x",
     "argo":"0.4.x"
+  },
+  "bin":{
+    "argod":"index.js"
   }
 }
