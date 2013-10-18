@@ -16,7 +16,7 @@ module.exports = argo().target("http://mdob.io/mdob/sandbox");
 3. Run it with `argod` `argod -p 4000 index.js`
 
 ### Usage
-
+```
  Usage: argod [options] [proxy_file]
 
    Options:
@@ -28,5 +28,5 @@ module.exports = argo().target("http://mdob.io/mdob/sandbox");
       -b, --backlog              Backlog setting.
       -c, --cert [cert]          Certificate setting. Required for SSL
       -k, --key [key]            Key setting. Required for SSL
-
+```
 
